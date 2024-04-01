@@ -1,0 +1,67 @@
+
+header {
+    background-color: red;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+
+.nav img {
+    margin-left: 10px;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Custom styles for form */
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Custom styles for footer */
+footer {
+    background-color: #343a40;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
